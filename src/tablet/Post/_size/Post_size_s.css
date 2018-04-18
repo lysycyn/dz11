@@ -1,0 +1,9 @@
+.Post_size_s {
+  grid-column: span 3;
+}
+
+.Post_size_s.Post-noImage .Post-Social {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

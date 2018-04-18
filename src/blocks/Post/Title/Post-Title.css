@@ -1,0 +1,16 @@
+.Post-Title {
+  position: relative;
+  max-height: 23px;
+  margin: 0 0 8px;
+}
+
+.Post-Title h2 {
+  margin: 0;
+  padding-bottom: 2px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 23px;
+  max-height: 69px;
+  background-color: #ffffff;
+  overflow: hidden;
+}

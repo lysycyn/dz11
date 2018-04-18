@@ -1,0 +1,33 @@
+.Post_size_l {
+  grid-column: span 6;
+  grid-column-gap: 16px;
+}
+
+.Post_size_l .Post-Image {
+    grid-area: i;
+    margin-bottom: 0;
+}
+
+.Post_size_l  .Post-Image img {
+    height: auto;
+}
+
+.Post_size_l .Post-Title {
+      grid-area: t;
+  }
+
+.Post_size_l .Post-Description {
+    grid-area: d;
+}
+
+.Post_size_l .Post-Social {
+  width: 100%;
+}
+
+.Post_size_l .Post-Footer {
+    grid-area: s;
+
+    svg {
+      fill: #d3d3d3;
+    }
+}

@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'YS Text';
+}
+
+button {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}

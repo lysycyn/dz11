@@ -1,0 +1,74 @@
+.Post_size_s {
+  grid-column: span 6;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+      't'
+      'd'
+      's';
+}
+
+.Post_size_s:not(.Post_noImage) {
+  grid-template-areas:
+    't'
+    'i'
+    'i';
+}
+
+.Post_size_s:not(.Post_noImage) .Post-Social {
+  grid-area: i;
+  position: absolute;
+  flex-direction: column;
+  bottom: 16px;
+  right: 16px;
+  height: 120px;
+
+  svg {
+    fill: #ffffff;
+  }
+}
+
+.Post_size_s .Post_noImage {
+    display: block;
+
+    .Post-Image {
+        display: none;
+    }
+
+    .Post-Actions {
+        margin-right: 24px;
+    }
+
+    .Post-Author {
+        display: block;
+    }
+
+    .Sost-Title {
+        max-height: none;
+    }
+
+    .Post-Footer {
+        grid-area: s;
+    }
+
+    .Post-Social {
+        svg {
+          fill: #d3d3d3;
+        }
+    }
+}
+
+.Post_size_s .Post-Title {
+  grid-area: t;
+  position: relative;
+  margin: 0 0 8px;
+  max-height: 46px;
+}
+
+.Post_size_s .Post-Image {
+  grid-area: i;
+}
+
+.Post_size_s .Post-Description {
+  grid-area: d;
+  margin-bottom: 24px;
+}

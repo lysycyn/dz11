@@ -1,0 +1,9 @@
+.Post-Image {
+    font-size: 0;
+}
+
+.Post-Image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}

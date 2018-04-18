@@ -1,0 +1,40 @@
+.Post_size_m {
+  grid-column: span 3;
+  grid-template-areas:
+      't'
+      'i'
+      'd';
+}
+
+.Post_size_m  .Post-Title {
+  position: relative;
+  max-height: 23px;
+  margin: 0 0 8px;
+}
+
+.Post_size_m .Post-Image {
+  margin-bottom: 8px;
+}
+
+.Post_size_m .Post-Image img {
+  height: 250px;
+}
+
+.Post_size_m .Post-Description {
+  max-height: 60px;
+  overflow: hidden;
+  padding-right: 44px;
+}
+
+.Post_size_m .Post-Social {
+  grid-area: d;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+
+  svg {
+    fill: #d3d3d3;
+  }
+}

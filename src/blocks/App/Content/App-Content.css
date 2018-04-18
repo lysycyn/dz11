@@ -1,0 +1,6 @@
+.App-Content {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 16px;
+}
