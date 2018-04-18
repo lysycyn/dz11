@@ -26,8 +26,8 @@
 
 .Post_size_l .Post-Footer {
     grid-area: s;
+}
 
-    svg {
-      fill: #d3d3d3;
-    }
+.Post_size_l .Post-Footer svg {
+  fill: #d3d3d3;
 }

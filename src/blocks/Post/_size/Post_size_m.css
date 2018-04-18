@@ -33,8 +33,8 @@
   top: 0;
   right: 0;
   height: 100%;
+}
 
-  svg {
-    fill: #d3d3d3;
-  }
+.Post_size_m .Post-Social svg {
+  fill: #d3d3d3;
 }
